@@ -92,6 +92,8 @@ set nrformats=
 set whichwrap=b,s,h,l,<,>,[,],~
 " バッファスクロール
 set mouse=a
+" ColorSchemeをmolokaiに設定
+colorscheme molokai
 
 " auto reload .vimrc
 augroup source-vimrc
