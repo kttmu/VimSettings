@@ -95,6 +95,16 @@ set mouse=a
 " ColorSchemeをmolokaiに設定
 colorscheme molokai
 
+set mouse=a                   " マウスサポートを有効にする
+set splitbelow                " 水平方向の分割を下に設定する
+set splitright                " 垂直方向の分割を右に設定する
+set wrap                      " 行の折り返しを有効にする
+set linebreak                 " 単語の途中で折り返さないようにする
+set showbreak=>>>             " 折り返し部分の表示を設定する
+set foldmethod=syntax         " シンタックスに基づいて折り畳みを設定する
+set foldlevelstart=99         " デフォルトでほとんどの折り畳みを開く
+
+
 " auto reload .vimrc
 augroup source-vimrc
   autocmd!
